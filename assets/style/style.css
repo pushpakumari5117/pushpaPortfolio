@@ -334,8 +334,7 @@ input,textarea,select{
 .nav li a .fa{
   margin-right: 5px;
 }
-.copyright-text{
-  font-size: 13px;
+footer small{
   color: #7d7d7d;
 }
 
