@@ -310,19 +310,17 @@ input,textarea,select{
   transform: rotate(-45deg);
   top: 0;
 }
-.aside .nav{
+.nav{
   list-style: none;
   margin: 80px 0;
   padding: 0;
 }
-.aside .nav li{
+.nav li{
   display: block;
 }
-.aside .nav li a{
-  font-size: 16px;
+.nav li a{
   font-weight: 600;
   color: #302e4d;
-  text-decoration: none;
   line-height: 45px;
   display: block;
   border-bottom: 1px solid #e8dfec;
@@ -330,14 +328,13 @@ input,textarea,select{
   transition: all 0.3s ease;
   text-transform: capitalize;
 }
-.aside .nav li a:not(.active):hover{
+.nav li a:not(.active):hover{
   padding-left: 5px;
 }
-.aside .nav li a .fa{
+.nav li a .fa{
   margin-right: 5px;
 }
-.aside .copyright-text{
-  font-size: 13px;
+footer small{
   color: #7d7d7d;
 }
 
@@ -395,20 +392,16 @@ input,textarea,select{
 
 
 /* About Section */
-.about .about-content{
-  flex: 0 0 100%;
-  -ms-flex: 0 0 100%;
-  max-width: 100%;
-}
+
 .about .about-content .about-text{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 100%;
 }
-.about .about-content .about-text h3{
+.about-text h3{
   font-size: 24px;
   margin-bottom: 15px;
-  font-weight: 700;
+  color: #e40017;
 }
 .about .about-content .about-text p{
   font-size: 16px;
