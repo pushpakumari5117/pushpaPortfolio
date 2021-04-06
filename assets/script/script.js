@@ -31,7 +31,7 @@
         LIElement[j].querySelector("a").classList.remove(active);
       }
       this.classList.add(active);
-      showSection(this);
+      showActivePage(this);
 
       if (window.innerWidth < 1200) {
         asideSectionTogglerBtn();
@@ -39,8 +39,8 @@
     })
   }
 
-  // Show page tranistions
-  function showSection(element) {
+  // Show the active page
+  function showActivePage(element) {
     for (let i = 0; i < sectionLength; i++) {
       sectionElement[i].classList.remove(active);
     }
