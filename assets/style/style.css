@@ -784,4 +784,15 @@ body.dark .aside .nav li a{
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .contact-text{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .contact-btn{
+    margin-left: 80px;
+    margin-top: 0px;
+  }
 }
